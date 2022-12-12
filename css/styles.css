@@ -1,0 +1,179 @@
+/* Normal tags */
+
+body{
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Montserrat";
+    font-weight: 700;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+
+/* Headings */
+
+.big-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem; 
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section{
+    background-color: #090D59;
+    color: white;
+}
+
+.white-section{
+    background-color: white;
+}
+
+
+/* Title section */
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+
+/* Navegation Bar */
+
+.navbar{
+    padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: 100;
+}
+
+/* Download Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-img{
+    width: 90%;
+    /* transform: rotate(25deg); */
+    position: absolute;
+    left: 10%;
+}
+
+/* Features */
+
+#features{
+    position: relative;
+    z-index: 1;
+}
+
+.features-topic{
+    font-size: 1.5rem;
+}
+
+.feature-box{
+    padding: 5%;
+}
+
+.features-img{
+    color: #5960DF;
+    margin-bottom: 1rem;
+}
+
+.features-img:hover{
+    color: #090D59;
+}
+
+/* Testimonial section */
+
+#testimonials{
+    background-color: #5960DF;
+}
+
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonials-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #5960DF;
+    padding-bottom: 3%;
+}
+
+.press-img{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing{
+    padding: 100px;
+}
+
+.pricing-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+.ftr-brand{
+    margin: 20px 10px;
+}
+
+
+
+
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+
+    .title-img{
+        position: static;
+        transform: rotate(0);
+        margin-top: 20px;
+    }
+}
+
